@@ -3,11 +3,11 @@
 
 @import "jekyll-theme-cayman";
 
-$primary-color: #157878;
-$secondary-color: #155799;
-$alert-info-bg: #d1ecf1;
-$alert-info-border: #bee5eb;
-$alert-info-color: #0c5460;
+$primary-color: #8B0000;
+$secondary-color: #000000;
+$alert-info-bg: #ffe6e6;
+$alert-info-border: #ffcccc;
+$alert-info-color: #8B0000;
 
 .page-header {
   background: linear-gradient(120deg, $secondary-color, $primary-color);
@@ -62,7 +62,7 @@ table {
   text-align: center;
   padding: 3rem 1rem;
   margin: 2rem -1rem -1rem;
-  background: linear-gradient(120deg, lighten($secondary-color, 60%), lighten($primary-color, 60%));
+  background: linear-gradient(120deg, #f5f5f5, #e0e0e0);
   
   h2 {
     color: $primary-color;
@@ -89,7 +89,7 @@ table {
 .main-content {
   h2 {
     color: $primary-color;
-    border-bottom: 2px solid lighten($primary-color, 50%);
+    border-bottom: 2px solid #e9ecef;
     padding-bottom: 0.5rem;
   }
   
