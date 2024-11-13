@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,5 +28,7 @@
         <span class="site-footer-credits">© {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</span>
       </footer>
     </main>
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   </body>
 </html>
