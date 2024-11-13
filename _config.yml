@@ -1,3 +1,46 @@
+# Site Settings
 title: Sentiment Analysis AI Service
-description: AI-powered sentiment analysis for niche industries
+description: AI-powered sentiment analysis for niche industries like healthcare and real estate, providing accurate and context-aware analysis
+baseurl: ""
+url: "https://bragdev.github.io"
+permalink: pretty
+
+# Theme Settings
 theme: jekyll-theme-cayman
+markdown: kramdown
+
+# Build Settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Settings
+twitter:
+  username: bragdev
+  card: summary_large_image
+logo: /assets/img/logo.png
+social:
+  name: BragDev AI
+  links:
+    - https://twitter.com/bragdev
+    - https://github.com/bragdev
+
+# Collections
+collections:
+  features:
+    output: true
+    permalink: /:collection/:name
+  case_studies:
+    output: true
+    permalink: /:collection/:name
+
+# Custom Variables
+github_username: bragdev
+company_email: contact@example.com
+google_analytics: # Add your GA tracking ID here
+
+# Additional Settings
+lang: en
+author: BragDev AI Team
+timezone: America/New_York

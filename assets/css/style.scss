@@ -1,0 +1,123 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+$primary-color: #157878;
+$secondary-color: #155799;
+$alert-info-bg: #d1ecf1;
+$alert-info-border: #bee5eb;
+$alert-info-color: #0c5460;
+
+.page-header {
+  background: linear-gradient(120deg, $secondary-color, $primary-color);
+  padding: 3rem 1rem;
+}
+
+.alert {
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  
+  &.alert-info {
+    background-color: $alert-info-bg;
+    border-color: $alert-info-border;
+    color: $alert-info-color;
+  }
+  
+  .alert-title {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .alert-content {
+    margin-bottom: 0;
+  }
+}
+
+table {
+  display: table;
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  
+  th, td {
+    padding: 0.75rem;
+    border: 1px solid #e9ecef;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+}
+
+.cta-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 2rem -1rem -1rem;
+  background: linear-gradient(120deg, lighten($secondary-color, 60%), lighten($primary-color, 60%));
+  
+  h2 {
+    color: $primary-color;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    background: linear-gradient(120deg, $secondary-color, $primary-color);
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  }
+}
+
+.main-content {
+  h2 {
+    color: $primary-color;
+    border-bottom: 2px solid lighten($primary-color, 50%);
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    
+    li {
+      position: relative;
+      margin-bottom: 0.5rem;
+      
+      &:before {
+        content: "•";
+        color: $primary-color;
+        font-weight: bold;
+        position: absolute;
+        left: -1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  
+  .cta-section {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,4 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'webrick'
+gem "jekyll", "~> 3.9.3"
+gem "jekyll-theme-cayman"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "kramdown-parser-gfm"
+gem "webrick"

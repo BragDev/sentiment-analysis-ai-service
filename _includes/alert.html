@@ -1,0 +1,8 @@
+<div class="alert alert-{{ include.type | default: 'info' }}">
+    {% raw %}{% if include.title %}
+    <h4 class="alert-title">{{ include.title }}</h4>
+    {% endif %}
+    <div class="alert-content">
+        {{ include.content }}
+    </div>{% endraw %}
+</div>
