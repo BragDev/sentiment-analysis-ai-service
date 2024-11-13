@@ -2,7 +2,7 @@
 title: Sentiment Analysis AI Service
 description: AI-powered sentiment analysis for niche industries like healthcare and real estate, providing accurate and context-aware analysis
 baseurl: ""
-url: "https://bragdev.github.io"
+url: "https://bragdev.github.io/"
 permalink: pretty
 
 # Theme Settings
@@ -37,10 +37,10 @@ collections:
 
 # Custom Variables
 github_username: bragdev
-company_email: contact@example.com
+company_email: contact@bragdev.io
 google_analytics: # Add your GA tracking ID here
 
 # Additional Settings
 lang: en
 author: BragDev AI Team
-timezone: America/New_York
+timezone: America/Chicago
