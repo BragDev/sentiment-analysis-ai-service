@@ -2,24 +2,18 @@
 layout: default
 title: AI-Powered Sentiment Analysis Service
 description: Advanced sentiment analysis solutions for healthcare and real estate industries
-permalink: /
-keywords: sentiment analysis, AI, machine learning, healthcare analytics, real estate analytics, natural language processing
-author: BragDev AI Team
-image: /assets/img/featured.jpg
-last_modified_at: 2024-01-16
 ---
 
 # Transforming Industry Insights Through AI
 
 Welcome to BragDev's Sentiment Analysis AI Service - where cutting-edge artificial intelligence meets industry-specific sentiment analysis. Our platform delivers precise, context-aware insights for healthcare and real estate sectors.
 
-{% raw %}{% include alert.html 
+{% include alert.html 
     type="info" 
     title="Early Access Available!" 
-    content="Join our beta program today and shape the future of industry-specific sentiment analysis." 
-%}{% endraw %}
+    content="Join our beta program today and shape the future of industry-specific sentiment analysis." %}
 
-## 🎯 Industry-Focused Solutions
+## Industry-Focused Solutions
 
 Our AI models are specifically trained for:
 
@@ -33,7 +27,7 @@ Our AI models are specifically trained for:
   - Market sentiment tracking
   - Customer feedback processing
 
-## 💡 Key Features
+## Key Features
 
 ### Real-Time Processing
 - Instant analysis results
@@ -50,7 +44,7 @@ Our AI models are specifically trained for:
 - HIPAA compliance
 - SOC 2 certification
 
-## 🚀 Early Access Benefits
+## Early Access Benefits
 
 Join our beta program to receive:
 
@@ -69,14 +63,14 @@ Join our beta program to receive:
    - Flexible pricing models
    - Volume discounts
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Industry | Accuracy | Processing Time |
 |----------|----------|-----------------|
 | Healthcare| 95%     | <100ms         |
 | Real Estate| 93%    | <150ms         |
 
-## 🤝 Get Started
+## Get Started
 
 Ready to transform your data analysis?
 
@@ -84,13 +78,11 @@ Ready to transform your data analysis?
 2. [View Documentation](/docs)
 3. [Join Beta Program](/beta)
 
-## 📱 Contact Us
+## Contact Us
 
 - Email: [{{ site.company_email }}](mailto:{{ site.company_email }})
 - Twitter: [@{{ site.twitter.username }}](https://twitter.com/{{ site.twitter.username }})
 - GitHub: [@{{ site.github_username }}](https://github.com/{{ site.github_username }})
-
----
 
 <div class="cta-section">
   <h2>Ready to Experience the Power of AI?</h2>
